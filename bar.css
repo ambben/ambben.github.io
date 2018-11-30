@@ -1,0 +1,108 @@
+nav {
+    background-color: #6ccafc;
+    padding: 0.5%;
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu li{
+	display: inline-block;
+	border:1px solid black;
+	width: 100px;
+	text-align: center;
+	margin: 0.5%;
+	border-radius: 20px;
+}
+body {
+	margin:0;
+}
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Trebuchet", serif;
+}
+a:hover {
+	color: purple;
+	background-color: #6ccafc;
+	display: block;
+	width: 100%;
+}
+
+#header{
+	height: 200px;
+	text-align: center;
+	font-size: 32px;
+	color: #6ccafc;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-family: 'Trebuchet', serif;
+    background-image: url(type2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    margin: 0%;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 0;
+  margin:0;
+  background-color: #fff;
+  color: #444;
+}
+.box {
+  background-color: white;
+  border: black solid;
+  color: #fff;
+  margin:0;
+  border-radius: 5px;
+  padding: 35%;
+  font-size: 100%;
+  font-family: 'Trebuchet', serif;
+  text-align:center; 
+}
+h2{
+	visibility: hidden;
+}
+#b1{
+	background-image: url(smoke.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b2{
+	background-image: url(westend.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b3{
+	background-image: url(craftsman.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b4{
+	background-image: url(mels.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+#b5{
+	background-image: url(heights.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#b6{
+	background-image: url(amity.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
